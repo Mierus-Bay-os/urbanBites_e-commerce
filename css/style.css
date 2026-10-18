@@ -1,0 +1,376 @@
+/* HOME */
+
+.navbar{
+    background-color: #22201E;
+    height: 65px;
+    flex-wrap: wrap;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-text img{
+    height: 50px;
+    width: 50px;
+    border: solid 1px;
+    border-radius: 100px;
+}
+
+.logo-text a{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.collapse a{
+    color: whitesmoke;
+}
+
+
+
+
+/* products---------------------- */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-left: 65px;
+    background-color: linen;
+    padding-bottom: 20px;
+}
+
+.products div{
+    width: 60px;
+}
+.product-grid img{
+    height: 300px;
+}
+
+.product-grid btn btn-primary{
+    position: relative;
+
+}
+
+.products h1{
+    margin-left: 60px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.products {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: linen;
+}
+
+
+
+
+/* Review -------------------------------- */
+.review-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-left: 65px;
+    
+}
+
+.review-grid span{
+    color: gold;
+    font-size: 25px;
+    border-color: black;
+}
+
+.review-grid h5{
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.review-grid p2{
+    margin-left: 7px;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+    color:gray;
+}
+
+.review-grid p3{
+    margin-left: 65px;
+    font-size: 13px;
+    color:gray;
+
+}
+
+.review-grid img{
+    height: 50px;
+    width: 50px;
+    border: solid 3px;
+    border-radius: 100%;
+}
+
+.reviews h1{
+    margin-left: 65px;
+}
+
+.reviews{
+    background-color: antiquewhite;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* gallery  -------------------- */
+.gallery-grid{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    gap: 100px;
+
+}
+
+.gallery-grid img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.gallery h1{
+    margin-left: 65px;
+
+}
+
+.gallery{
+    background-color: linen;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+
+/* footer----------------- */
+.footer{
+    text-align: center;
+    background-color: black;
+}
+
+.footer-box{
+    color:antiquewhite
+}
+
+.footer-box h5{
+    font-size: 30px;
+}
+
+/* END OF HOME */
+
+
+
+
+
+
+
+
+
+/* ABOUT-------------------------------------------- */
+.about{
+    background-color: linen;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left :65px;
+    padding-top: 20px;
+}
+
+
+.intro-text h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.intro-text p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.intro img{
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+/* offer--------------- */
+.offers{
+    background-color: antiquewhite;
+}
+
+.offers-heading h2{
+    font-size: 27px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-left: 65px;
+    
+}
+
+.offers-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 75px;
+    padding-bottom: 30px;
+    
+}
+
+.card{
+    width: 350px;
+    height: 180px;
+    gap: 20px;
+}
+
+.offers-grid img{
+    width: 350px;
+    height: 250px;
+}
+
+.offers-grid h5 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    height: auto;
+    font-size: 30px;
+    font-family:  "georgia", serif;
+    font-style: italic;
+}
+
+
+/* message */
+.message-box{
+    text-align: center;
+    border:solid linen;
+    border-radius: 30px;
+    padding-top: 20px;
+    background-color: linen;
+}
+
+
+
+
+/* PRODUCTION------------------------------- */
+.prod{
+    background-color: linen;
+    padding-top: 20px;
+}
+
+.prod-heading h1{
+    font-weight: bolder;
+    padding-left: 65px;
+}
+
+.prod-shawarma{
+    display: grid;
+    grid-template-columns: 400px 400px 700px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.prod-shawarma img{
+    height: 300px;
+}
+
+.prod-milktea{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.prod-milktea img{
+    height: 300px;
+}
+
+.prod-burger{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.prod-burger img{
+    height: 300px;
+}
+
+.prod-fries{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.prod-fries img{
+    height: 300px;
+}
+
+
+/* contact----------- */
+.contact{
+    background-color: linen;
+    padding-bottom: 10px;
+}
+
+.contact-heading h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.contact-heading p{
+    text-align: center;
+}
+
+
+.contact-info h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact-info h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-info p{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.contact-part{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-right: 550px;
+}
